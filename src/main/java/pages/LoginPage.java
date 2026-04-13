@@ -34,24 +34,6 @@ public class LoginPage {
         WebElement btn = wait.until(ExpectedConditions.elementToBeClickable(LoginPageLocators.LOGIN_BUTTON));
         ((JavascriptExecutor) driver).executeScript("arguments[0].click();", btn);
     }
-    
-    public String getErrorMessage1() {
-        try {
-            WebElement msg = wait.until(ExpectedConditions.visibilityOfElementLocated(LoginPageLocators.ERROR_MESSAGE1));
-            return msg.getText();
-        } catch (Exception e) {
-            return "";
-        }
-    }
-
-    public String getErrorMessage2() {
-        try {
-            WebElement msg = wait.until(ExpectedConditions.visibilityOfElementLocated(LoginPageLocators.ERROR_MESSAGE2));
-            return msg.getText();
-        } catch (Exception e) {
-            return "";
-        }
-    }
 
     public boolean isLoginSuccessful() {
         try {

@@ -12,6 +12,6 @@ public class ProductLocators {
 	
 	public static final By PROD_IMG = By.cssSelector("img.c-image.d-block");
 	
-	public static final By ADD_TO_CART_BTN = By.cssSelector("button.c-universal-add-to-cart.btn-primary");
+	public static final By ADD_TO_CART_BTN = By.cssSelector("button[data-analytics-name='add_to_cart']");
 	
 }

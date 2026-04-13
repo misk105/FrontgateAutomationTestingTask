@@ -38,7 +38,7 @@ public class PaymentPage extends CheckoutPage{
         field.clear();
         field.sendKeys("0330");
         
-        Thread.sleep(10000);
+        Thread.sleep(3000);
         WebElement btn = wait.until(ExpectedConditions.visibilityOfElementLocated(PaymentLocators.PLACE_ORDER));
         ((JavascriptExecutor) driver).executeScript("arguments[0].click();", btn);
 	}
