@@ -7,7 +7,6 @@ import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
-import java.io.IOException;
 
 public class ExcelUtils {
     private static XSSFWorkbook workbook;
@@ -21,7 +20,7 @@ public class ExcelUtils {
     }
 
     public static int getRowCount() {
-        return sheet.getLastRowNum(); 
+    	return sheet.getPhysicalNumberOfRows() - 1; 
     }
 
     public static String getCellData(int rowNum, int colNum) {

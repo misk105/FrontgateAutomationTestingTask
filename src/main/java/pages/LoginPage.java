@@ -1,6 +1,5 @@
 package pages;
 
-import org.openqa.selenium.By;
 import locators.LoginPageLocators;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;

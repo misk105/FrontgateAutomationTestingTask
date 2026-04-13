@@ -1,6 +1,5 @@
 package pages;
 
-import org.openqa.selenium.By;
 import locators.HomePageLocators;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -33,4 +32,13 @@ public class HomePage {
         wait.until(ExpectedConditions.elementToBeClickable(HomePageLocators.SIGN_IN_LINK)).click();
         return new LoginPage(driver); 
     }
+    
+    public ProductPage enterSearchField() throws InterruptedException {
+    	WebElement searchbar = wait.until(ExpectedConditions.visibilityOfElementLocated(HomePageLocators.SEARCH_FIELD));
+    	searchbar.clear();
+    	searchbar.sendKeys("stainless");
+    	wait.until(ExpectedConditions.elementToBeClickable(HomePageLocators.SEARCH_BTN)).click();
+    	return new ProductPage(driver);
+    }  
+    
 }
