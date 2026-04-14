@@ -15,6 +15,11 @@ public class CartPage extends ProductPage{
 		wait.until(ExpectedConditions.elementToBeClickable(CartLocators.VIEW_CART)).click();
 	}
 	
+	public void NoThanks() {
+		try {
+		wait.until(ExpectedConditions.elementToBeClickable(CartLocators.NO_THANKS_BTN)).click();
+		} catch(Exception e) {}
+	}
 	public CheckoutPage CheckoutButton() {
 		wait.until(ExpectedConditions.elementToBeClickable(CartLocators.CHECKOUT_BTN)).click();
 		

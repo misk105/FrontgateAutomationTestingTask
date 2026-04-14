@@ -30,7 +30,14 @@ public class PaymentPage extends CheckoutPage{
         field.clear();
         field.sendKeys("10167");
         
-        field = wait.until(ExpectedConditions.visibilityOfElementLocated(PaymentLocators.CARD_NUM));
+        field = wait.until(ExpectedConditions.visibilityOfElementLocated(PaymentLocators.NUMBER_FIELD));
+        field.clear();
+        field.sendKeys("770-065-5941");
+	}
+        
+     public void EnterCardInfo() throws InterruptedException {
+        
+    	 WebElement field = wait.until(ExpectedConditions.visibilityOfElementLocated(PaymentLocators.CARD_NUM));
         field.clear();
         field.sendKeys("4000060000000006");
         

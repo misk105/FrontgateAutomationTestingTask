@@ -4,6 +4,8 @@
   <test name="DataDrivenLoginTest">
     <classes>
       <class name="tests.LoginTest"/>
+      <class name="tests.RegisteredCheckoutTest"/>
+      <class name="tests.GuestCheckoutTest"/>
     </classes>
   </test>
 </suite>

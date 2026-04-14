@@ -17,5 +17,7 @@ public class PaymentLocators {
 	public static final By EXP_DATE = By.cssSelector("input#exp-date");
 	
 	public static final By PLACE_ORDER = By.cssSelector("button.c-place-order__btn.u-w-sm-100.p-4.btn.btn-primary");
+	
+	public static final By NUMBER_FIELD = By.cssSelector("input#phone1box");
 
 }

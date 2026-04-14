@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\2022\AppData\Local\Temp\testng-eclipse--1754655611\testng-customsuite.xml</span>
+                    <span>C:\Users\2022\AppData\Local\Temp\testng-eclipse-475540243\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -108,7 +108,12 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="tests.SearchTest" class="method navigator-link" hash-for-method="testSearch">testSearch</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="tests.RegisteredCheckoutTest" class="method navigator-link" hash-for-method="testSearch">testSearch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="tests.GuestCheckoutTest" class="method navigator-link" hash-for-method="testSearch">testSearch</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -126,7 +131,7 @@
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">tests.SearchTest</span>
+              <span class="class-name">tests.RegisteredCheckoutTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -153,10 +158,25 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Default_suite-class-passed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.GuestCheckoutTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearch">
+                  </a> <!-- testSearch -->
+                  <span class="method-name">testSearch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\2022\AppData\Local\Temp\testng-eclipse--1754655611\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\2022\AppData\Local\Temp\testng-eclipse-475540243\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -169,17 +189,18 @@
       &lt;class name=&quot;locators.HomePageLocators&quot;/&gt;
       &lt;class name=&quot;locators.CheckoutLocators&quot;/&gt;
       &lt;class name=&quot;pages.CheckoutPage&quot;/&gt;
+      &lt;class name=&quot;tests.RegisteredCheckoutTest&quot;/&gt;
       &lt;class name=&quot;utilities.ExcelUtils&quot;/&gt;
-      &lt;class name=&quot;tests.SearchTest&quot;/&gt;
       &lt;class name=&quot;locators.CartLocators&quot;/&gt;
-      &lt;class name=&quot;pages.HomePage&quot;/&gt;
       &lt;class name=&quot;pages.ProductPage&quot;/&gt;
+      &lt;class name=&quot;pages.HomePage&quot;/&gt;
       &lt;class name=&quot;tests.ConfigReader&quot;/&gt;
       &lt;class name=&quot;locators.ProductLocators&quot;/&gt;
       &lt;class name=&quot;pages.LoginPage&quot;/&gt;
       &lt;class name=&quot;pages.PaymentPage&quot;/&gt;
       &lt;class name=&quot;tests.BaseTest&quot;/&gt;
       &lt;class name=&quot;locators.LoginPageLocators&quot;/&gt;
+      &lt;class name=&quot;tests.GuestCheckoutTest&quot;/&gt;
       &lt;class name=&quot;locators.PaymentLocators&quot;/&gt;
       &lt;class name=&quot;pages.CartPage&quot;/&gt;
     &lt;/classes&gt;
@@ -195,7 +216,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Default test (17 classes)</span>
+                <span class="test-name">Default test (18 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -221,20 +242,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(3);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'testSearch')
-data.setCell(0, 2, 'tests.SearchTest')
-data.setCell(0, 3, 43519);
+data.setCell(0, 2, 'tests.RegisteredCheckoutTest')
+data.setCell(0, 3, 49996);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'testLogin')
-data.setCell(1, 2, 'tests.LoginTest')
-data.setCell(1, 3, 11681);
+data.setCell(1, 1, 'testSearch')
+data.setCell(1, 2, 'tests.GuestCheckoutTest')
+data.setCell(1, 3, 44408);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testLogin')
+data.setCell(2, 2, 'tests.LoginTest')
+data.setCell(2, 3, 10336);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 55 seconds</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -249,27 +274,9 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">4 ignored methods</span>
+            <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">tests.SearchTest</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">tearDown</span>
-                <br/>
-                <span class="ignored-method-name">setUp</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">tests.BaseTest</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">setUp</span>
-                <br/>
-                <span class="ignored-method-name">tearDown</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-Default_suite" class="panel">
@@ -279,28 +286,48 @@ return data;
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
               <div class="chronological-class-name">tests.LoginTest</div> <!-- chronological-class-name -->
-              <div class="configuration-suite before">
+              <div class="configuration-method before">
                 <span class="method-name">setUp</span>
                 <span class="method-start">0 ms</span>
-              </div> <!-- configuration-suite before -->
+              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testLogin</span>
-                <span class="method-start">2293 ms</span>
+                <span class="method-start">2696 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">13036 ms</span>
+              </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">tests.SearchTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">tests.RegisteredCheckoutTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">13475 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testSearch</span>
-                <span class="method-start">13981 ms</span>
+                <span class="method-start">14575 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">64573 ms</span>
+              </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">tests.LoginTest</div> <!-- chronological-class-name -->
-              <div class="configuration-suite after">
+              <div class="chronological-class-name">tests.GuestCheckoutTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">65211 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSearch</span>
+                <span class="method-start">66547 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">57584 ms</span>
-              </div> <!-- configuration-suite after -->
+                <span class="method-start">110958 ms</span>
+              </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

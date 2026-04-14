@@ -13,5 +13,9 @@ public class CheckoutLocators {
 	public static final By KEEP_ADD = By.xpath("//button[contains(@class,'btn-primary') and contains(.,'keep original address')]");
 	
 	public static final By NEXT_BTN = By.cssSelector("button#nextBtn");
+	
+	public static final By CONTINUE_AS_GUEST = By.cssSelector("button.c-continue-as-guest-button.btn.btn-primary");
+	
+	public static final By EMAIL_FIELD = By.cssSelector("input#checkout_step1_email");
 
 }

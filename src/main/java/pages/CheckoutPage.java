@@ -5,6 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import locators.CheckoutLocators;
+import locators.LoginPageLocators;
 
 public class CheckoutPage extends CartPage {
 	
@@ -27,5 +28,15 @@ public class CheckoutPage extends CartPage {
 		((JavascriptExecutor) driver).executeScript("arguments[0].click();", btn);
 		Thread.sleep(4000);
 	}
+	
+	public void ContinueAsGuest() {
+		wait.until(ExpectedConditions.elementToBeClickable(CheckoutLocators.CONTINUE_AS_GUEST)).click();
+	}
+	
+	public void enterEmail(String email) {
+        WebElement field = wait.until(ExpectedConditions.visibilityOfElementLocated(CheckoutLocators.EMAIL_FIELD));
+        field.clear();
+        field.sendKeys(email);
+    }
 
 }
