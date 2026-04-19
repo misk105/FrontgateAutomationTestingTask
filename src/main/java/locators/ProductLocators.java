@@ -8,7 +8,7 @@ public class ProductLocators {
 	
 	public static final By PROD_NAME = By.cssSelector("div.t-universal-product-details-heading-info__title");
 	
-	public static final By PROD_PRICE = By.cssSelector("div.c-universal-price-new.c--is-current-price");
+	public static final By PROD_PRICE = By.cssSelector("div.price");
 	
 	public static final By PROD_IMG = By.cssSelector("img.c-image.d-block");
 	

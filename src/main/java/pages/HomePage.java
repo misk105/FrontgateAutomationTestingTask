@@ -1,6 +1,8 @@
 package pages;
 
 import locators.HomePageLocators;
+
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -37,7 +39,9 @@ public class HomePage {
     	WebElement searchbar = wait.until(ExpectedConditions.visibilityOfElementLocated(HomePageLocators.SEARCH_FIELD));
     	searchbar.clear();
     	searchbar.sendKeys("stainless");
-    	wait.until(ExpectedConditions.elementToBeClickable(HomePageLocators.SEARCH_BTN)).click();
+    	Thread.sleep(500);
+    	WebElement btn = wait.until(ExpectedConditions.elementToBeClickable(HomePageLocators.SEARCH_BTN));
+    	((JavascriptExecutor) driver).executeScript("arguments[0].click();", btn);
     	return new ProductPage(driver);
     }  
     

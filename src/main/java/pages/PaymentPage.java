@@ -47,6 +47,7 @@ public class PaymentPage extends CheckoutPage{
         
         Thread.sleep(3000);
         WebElement btn = wait.until(ExpectedConditions.visibilityOfElementLocated(PaymentLocators.PLACE_ORDER));
+        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView({block: 'center'});", btn);
         ((JavascriptExecutor) driver).executeScript("arguments[0].click();", btn);
 	}
 
