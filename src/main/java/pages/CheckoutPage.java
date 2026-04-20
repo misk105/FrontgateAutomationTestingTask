@@ -23,7 +23,7 @@ public class CheckoutPage extends CartPage {
 		wait.until(ExpectedConditions.elementToBeClickable(CheckoutLocators.CONTINUE_BTN)).click();
 		Thread.sleep(2000);
 		wait.until(ExpectedConditions.elementToBeClickable(CheckoutLocators.KEEP_ADD)).click();
-		Thread.sleep(10000);
+		Thread.sleep(4000);
 		WebElement btn = wait.until(ExpectedConditions.elementToBeClickable(CheckoutLocators.NEXT_BTN));
 		((JavascriptExecutor) driver).executeScript("arguments[0].click();", btn);
 		Thread.sleep(4000);

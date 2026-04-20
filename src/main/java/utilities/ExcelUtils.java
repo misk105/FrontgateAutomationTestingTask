@@ -44,8 +44,15 @@ public class ExcelUtils {
         XSSFCell c = r.getCell(col);
         if (c == null) c = r.createCell(col);
         c.setCellValue(value);
+        
+       
+        System.out.println("Writing: " + value + " at row=" + row + " col=" + col);
+        
         FileOutputStream out = new FileOutputStream(filePath);
         workbook.write(out);
+        out.flush(); 
         out.close();
+        
+        System.out.println("Write successful!");
     }
 }

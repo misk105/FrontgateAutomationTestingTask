@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-04-19T14:43:33 GMT+02:00" name="Default suite" finished-at="2026-04-19T14:47:02 GMT+02:00" duration-ms="209625">
+  <suite started-at="2026-04-20T10:20:38 GMT+02:00" name="Default suite" finished-at="2026-04-20T10:26:13 GMT+02:00" duration-ms="335484">
     <groups>
     </groups>
-    <test started-at="2026-04-19T14:43:33 GMT+02:00" name="Default test" finished-at="2026-04-19T14:47:02 GMT+02:00" duration-ms="209625">
+    <test started-at="2026-04-20T10:20:38 GMT+02:00" name="Default test" finished-at="2026-04-20T10:26:13 GMT+02:00" duration-ms="335484">
       <class name="tests.CheckoutTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.CheckoutTest@1f2586d6]" started-at="2026-04-19T14:43:33 GMT+02:00" name="setUp" finished-at="2026-04-19T14:43:36 GMT+02:00" duration-ms="2414" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.CheckoutTest@3fc2959f]" started-at="2026-04-20T10:20:39 GMT+02:00" name="setUp" finished-at="2026-04-20T10:20:41 GMT+02:00" duration-ms="1989" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testSearch(java.lang.String,java.lang.String,java.lang.String,int,java.lang.String,int)[pri:0, instance:tests.CheckoutTest@1f2586d6]" started-at="2026-04-19T14:43:36 GMT+02:00" name="testSearch" data-provider="checkoutData" finished-at="2026-04-19T14:44:32 GMT+02:00" duration-ms="56144" status="PASS">
+        <test-method signature="testSearch(java.lang.String,java.lang.String,java.lang.String,int,java.lang.String,int)[pri:0, instance:tests.CheckoutTest@3fc2959f]" started-at="2026-04-20T10:20:41 GMT+02:00" name="testSearch" data-provider="checkoutData" finished-at="2026-04-20T10:21:29 GMT+02:00" duration-ms="48236" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -35,7 +35,7 @@
             </param>
             <param index="4">
               <value>
-                <![CDATA[]]>
+                <![CDATA[new]]>
               </value>
             </param>
             <param index="5">
@@ -47,15 +47,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSearch -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CheckoutTest@1f2586d6]" started-at="2026-04-19T14:44:32 GMT+02:00" name="tearDown" finished-at="2026-04-19T14:44:32 GMT+02:00" duration-ms="822" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CheckoutTest@3fc2959f]" started-at="2026-04-20T10:21:29 GMT+02:00" name="tearDown" finished-at="2026-04-20T10:21:30 GMT+02:00" duration-ms="990" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.CheckoutTest@1f2586d6]" started-at="2026-04-19T14:44:32 GMT+02:00" name="setUp" finished-at="2026-04-19T14:44:34 GMT+02:00" duration-ms="1380" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.CheckoutTest@3fc2959f]" started-at="2026-04-20T10:21:30 GMT+02:00" name="setUp" finished-at="2026-04-20T10:21:32 GMT+02:00" duration-ms="1677" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testSearch(java.lang.String,java.lang.String,java.lang.String,int,java.lang.String,int)[pri:0, instance:tests.CheckoutTest@1f2586d6]" started-at="2026-04-19T14:44:34 GMT+02:00" name="testSearch" data-provider="checkoutData" finished-at="2026-04-19T14:45:31 GMT+02:00" duration-ms="57186" status="PASS">
+        <test-method signature="testSearch(java.lang.String,java.lang.String,java.lang.String,int,java.lang.String,int)[pri:0, instance:tests.CheckoutTest@3fc2959f]" started-at="2026-04-20T10:21:32 GMT+02:00" name="testSearch" data-provider="checkoutData" finished-at="2026-04-20T10:22:35 GMT+02:00" duration-ms="63152" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -79,7 +79,7 @@
             </param>
             <param index="4">
               <value>
-                <![CDATA[]]>
+                <![CDATA[saved]]>
               </value>
             </param>
             <param index="5">
@@ -91,15 +91,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSearch -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CheckoutTest@1f2586d6]" started-at="2026-04-19T14:45:31 GMT+02:00" name="tearDown" finished-at="2026-04-19T14:45:32 GMT+02:00" duration-ms="771" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CheckoutTest@3fc2959f]" started-at="2026-04-20T10:22:35 GMT+02:00" name="tearDown" finished-at="2026-04-20T10:22:36 GMT+02:00" duration-ms="1015" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.CheckoutTest@1f2586d6]" started-at="2026-04-19T14:45:32 GMT+02:00" name="setUp" finished-at="2026-04-19T14:45:33 GMT+02:00" duration-ms="1160" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.CheckoutTest@3fc2959f]" started-at="2026-04-20T10:22:36 GMT+02:00" name="setUp" finished-at="2026-04-20T10:22:37 GMT+02:00" duration-ms="1390" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testSearch(java.lang.String,java.lang.String,java.lang.String,int,java.lang.String,int)[pri:0, instance:tests.CheckoutTest@1f2586d6]" started-at="2026-04-19T14:45:33 GMT+02:00" name="testSearch" data-provider="checkoutData" finished-at="2026-04-19T14:47:01 GMT+02:00" duration-ms="88401" status="PASS">
+        <test-method signature="testSearch(java.lang.String,java.lang.String,java.lang.String,int,java.lang.String,int)[pri:0, instance:tests.CheckoutTest@3fc2959f]" started-at="2026-04-20T10:22:37 GMT+02:00" name="testSearch" data-provider="checkoutData" finished-at="2026-04-20T10:24:08 GMT+02:00" duration-ms="90402" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -123,7 +123,7 @@
             </param>
             <param index="4">
               <value>
-                <![CDATA[]]>
+                <![CDATA[saved]]>
               </value>
             </param>
             <param index="5">
@@ -135,7 +135,95 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSearch -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CheckoutTest@1f2586d6]" started-at="2026-04-19T14:47:01 GMT+02:00" name="tearDown" finished-at="2026-04-19T14:47:02 GMT+02:00" duration-ms="778" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CheckoutTest@3fc2959f]" started-at="2026-04-20T10:24:08 GMT+02:00" name="tearDown" finished-at="2026-04-20T10:24:08 GMT+02:00" duration-ms="780" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.CheckoutTest@3fc2959f]" started-at="2026-04-20T10:24:08 GMT+02:00" name="setUp" finished-at="2026-04-20T10:24:10 GMT+02:00" duration-ms="1352" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSearch(java.lang.String,java.lang.String,java.lang.String,int,java.lang.String,int)[pri:0, instance:tests.CheckoutTest@3fc2959f]" started-at="2026-04-20T10:24:10 GMT+02:00" name="testSearch" data-provider="checkoutData" finished-at="2026-04-20T10:25:18 GMT+02:00" duration-ms="67909" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Registered]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[m.hneef@student.aaup.edu]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Mi@12345678]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[new]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearch -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CheckoutTest@3fc2959f]" started-at="2026-04-20T10:25:18 GMT+02:00" name="tearDown" finished-at="2026-04-20T10:25:19 GMT+02:00" duration-ms="861" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.CheckoutTest@3fc2959f]" started-at="2026-04-20T10:25:19 GMT+02:00" name="setUp" finished-at="2026-04-20T10:25:20 GMT+02:00" duration-ms="1150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSearch(java.lang.String,java.lang.String,java.lang.String,int,java.lang.String,int)[pri:0, instance:tests.CheckoutTest@3fc2959f]" started-at="2026-04-20T10:25:20 GMT+02:00" name="testSearch" data-provider="checkoutData" finished-at="2026-04-20T10:26:13 GMT+02:00" duration-ms="52750" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Guest]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[m.hneef@student.aaup.edu]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[new]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearch -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CheckoutTest@3fc2959f]" started-at="2026-04-20T10:26:13 GMT+02:00" name="tearDown" finished-at="2026-04-20T10:26:13 GMT+02:00" duration-ms="748" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

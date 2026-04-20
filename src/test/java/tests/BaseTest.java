@@ -18,16 +18,16 @@ public class BaseTest {
     public void setUp() throws Exception {
         driver = new ChromeDriver();
         driver.manage().window().maximize();
-        homePage = new HomePage(driver);
+        homePage = new HomePage(driver);  
     }
     
     @DataProvider(name = "checkoutData")
     public Object[][] getCheckoutData() throws Exception {
         ExcelUtils.openFile(System.getProperty("user.dir") + "/src/test/resources/users2.xlsx","Sheet1");
 
-        Object[][] data = new Object[3][6];
+        Object[][] data = new Object[5][6];
 
-        for (int i = 1; i < 4; i++) {
+        for (int i = 1; i < 6; i++) {
             data[i - 1][0] = ExcelUtils.getCellData(i, 0); // userType
             data[i - 1][1] = ExcelUtils.getCellData(i, 1); // email
             data[i - 1][2] = ExcelUtils.getCellData(i, 2); // password
